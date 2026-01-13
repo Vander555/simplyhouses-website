@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Simply Houses Real Estate</title>
+    <meta name="description" content="Actualidad inmobiliaria, tendencias del mercado y consejos de inversión.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">SIMPLY HOUSES</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h1>Blog</h1>
+        <h2>Actualidad Inmobiliaria</h2>
+    </section>
+
+    <div class="container">
+        <article class="blog-post">
+            <h2>El mercado oculto: ¿Por qué las propiedades más exclusivas no están en internet?</h2>
+            <p>
+                El fenómeno "Off-Market" sigue creciendo. Analizamos por qué grandes propietarios e inversores 
+                eligen la discreción y cómo acceder a este inventario reservado a través de consultoras especializadas, 
+                evitando la exposición pública del patrimonio.
+            </p>
+            <p>
+                En un mundo cada vez más digitalizado, puede parecer contradictorio que las propiedades más valiosas 
+                no se encuentren en los portales inmobiliarios convencionales. Sin embargo, esta tendencia responde 
+                a una necesidad real de privacidad y exclusividad por parte de propietarios de alto patrimonio.
+            </p>
+        </article>
+
+        <article class="blog-post">
+            <h2>Inversión Inmobiliaria: Claves para detectar zonas de expansión</h2>
+            <p>
+                Más allá de las grandes capitales. Cómo identificar barrios y municipios con alto potencial de 
+                revalorización antes de que los precios se disparen. Análisis de tendencias nacionales en vivienda 
+                residencial y de lujo.
+            </p>
+            <p>
+                La inversión inmobiliaria exitosa no solo se trata de comprar en las zonas más conocidas, 
+                sino de anticiparse a las tendencias del mercado. Factores como el desarrollo de infraestructuras, 
+                cambios demográficos y proyectos urbanísticos pueden indicar oportunidades de alto rendimiento.
+            </p>
+        </article>
+
+        <article class="blog-post">
+            <h2>Seguridad jurídica en la compraventa a distancia</h2>
+            <p>
+                Adquirir una propiedad no tiene por qué ser un riesgo si se cuenta con el equipo adecuado. 
+                La importancia de la Due Diligence legal y técnica para garantizar una inversión segura en 
+                cualquier punto de la geografía española.
+            </p>
+            <p>
+                Con la expansión de las operaciones inmobiliarias a nivel nacional, cada vez es más común realizar 
+                compraventas sin visitar físicamente la propiedad. La tecnología y la profesionalización del sector 
+                permiten realizar transacciones seguras, siempre que se sigan los protocolos adecuados de verificación 
+                legal y técnica.
+            </p>
+        </article>
+
+        <div class="text-center mt-2">
+            <a href="contacto.html" class="btn">Contáctenos</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Simply Houses Real Estate. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
