@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - Simply Houses Real Estate</title>
+    <meta name="description" content="Más de 20 años construyendo confianza en el sector inmobiliario. Experiencia, transparencia y alcance nacional.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">SIMPLY HOUSES</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h1>Más de 20 años construyendo confianza</h1>
+        <h2>Experiencia, Transparencia y Alcance Nacional.</h2>
+    </section>
+
+    <div class="container">
+        <p>
+            Simply Houses nace con una vocación clara: transformar el sector inmobiliario devolviéndole su esencia, 
+            el trato humano y la personalización absoluta, independientemente de la ubicación del activo.
+        </p>
+
+        <p>
+            No somos una agencia tradicional; somos un equipo multidisciplinar de expertos operando a nivel nacional. 
+            Nuestra trayectoria de más de dos décadas en el sector nos permite gestionar con solvencia operaciones 
+            complejas en cualquier punto de la geografía: desde la valoración financiera y el análisis legal, 
+            hasta la negociación y el cierre.
+        </p>
+
+        <h2 class="mt-2 mb-2">Nuestros Valores</h2>
+
+        <ul class="values-list">
+            <li>
+                <strong>Transparencia Radical</strong>
+                La claridad es nuestro sello. Si una operación no es viable, se lo diremos, esté donde esté la propiedad.
+            </li>
+            <li>
+                <strong>Confidencialidad</strong>
+                Protegemos su identidad y sus activos con el máximo celo.
+            </li>
+            <li>
+                <strong>Ubicuidad</strong>
+                Nuestra red de colaboradores nos permite operar con la misma eficacia en grandes capitales 
+                que en zonas costeras exclusivas.
+            </li>
+        </ul>
+
+        <div class="text-center mt-2">
+            <a href="servicios.html" class="btn">Conoce Nuestros Servicios</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Simply Houses Real Estate. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
