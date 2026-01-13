@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Simply Houses Real Estate</title>
+    <meta name="description" content="Simply Prime, Simply Living y Club de Inversores. Un enfoque a medida para cada perfil de inversión.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">SIMPLY HOUSES</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" style="padding: 4rem 2rem;">
+        <h1>Nuestros Servicios</h1>
+        <h2>Un enfoque a medida para cada perfil de inversión.</h2>
+    </section>
+
+    <div class="container">
+        <div class="card-grid">
+            <div class="card">
+                <h2>Simply Prime</h2>
+                <h3>Alta Gama & Inversión Singular</h3>
+                <p>
+                    Especializados en el mercado Prime. Gestionamos la compraventa de activos singulares, 
+                    fincas, áticos y villas de lujo con total discreción.
+                </p>
+                <ul style="list-style: none; padding-left: 0; margin-top: 1.5rem;">
+                    <li style="margin-bottom: 0.5rem;">✓ Búsqueda y venta de activos en las zonas más exclusivas del país</li>
+                    <li>✓ Marketing "Off-Market": Su propiedad se ofrece solo a nuestra cartera privada de inversores, 
+                    sin exposición en portales masivos</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Simply Living</h2>
+                <h3>Vivienda Residencial Selecta</h3>
+                <p>
+                    El lujo es una metodología, no solo un precio. Aplicamos nuestros estándares de excelencia 
+                    a la vivienda residencial.
+                </p>
+                <p>
+                    Ya sea una primera vivienda o una segunda residencia vacacional, seleccionamos oportunidades 
+                    que destaquen por su calidad, ubicación estratégica y potencial de revalorización.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section class="club-section">
+        <div class="container">
+            <h2>CLUB DE INVERSORES</h2>
+            <h3 style="color: var(--white); font-weight: 300; margin-bottom: 2rem;">
+                Acceso Privilegiado a Oportunidades "Off-Market"
+            </h3>
+            <p style="max-width: 800px; margin: 0 auto 2rem;">
+                Las mejores oportunidades rara vez llegan al mercado abierto. En Simply Houses, 
+                hemos creado un ecosistema exclusivo para el inversor que busca rentabilidad y 
+                seguridad en cualquier mercado.
+            </p>
+            <p style="max-width: 800px; margin: 0 auto 2rem;">
+                Ser miembro de nuestro club le otorga prioridad absoluta sobre activos de alta rentabilidad, 
+                liquidaciones y oportunidades de inversión a nivel nacional antes de que entren en el circuito comercial.
+            </p>
+            <p style="font-weight: 600; color: var(--gold); margin-bottom: 2rem;">
+                ¿Desea formar parte?
+            </p>
+            <p style="max-width: 800px; margin: 0 auto 2rem;">
+                El acceso es restringido y requiere validación de perfil. Escríbanos a nuestro correo 
+                confidencial para solicitar su ingreso.
+            </p>
+            <a href="contacto.html" class="btn">Solicitar Acceso al Club</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Simply Houses Real Estate. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('navMenu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
